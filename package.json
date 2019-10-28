@@ -1,0 +1,20 @@
+{
+  "name": "vue-learn",
+  "version": "1.0.0",
+  "description": "learning Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start:prod":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuki23329626/vue-learn.git"
+  },
+  "author": "nxshen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuki23329626/vue-learn/issues"
+  },
+  "homepage": "https://github.com/Yuki23329626/vue-learn#readme"
+}
