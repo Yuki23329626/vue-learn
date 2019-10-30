@@ -62,8 +62,6 @@
                 </form>
             </div>
         </nav>
-        <img src="./assets/logo.png" />
-        <router-view />
     </div>
 </template>
 
