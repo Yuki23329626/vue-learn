@@ -1,5 +1,5 @@
 FROM node:10.16.0-stretch as build
-RUN apt update && apt install vim
+RUN apt update && apt install nano
 RUN npm install -g @vue/cli
 
 WORKDIR /vue-learn
