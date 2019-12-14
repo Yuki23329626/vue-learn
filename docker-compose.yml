@@ -12,8 +12,6 @@ services:
       - "443:443"
     networks:
       - openid
-
-volumes:
     
 networks:
   openid:
