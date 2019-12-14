@@ -5,7 +5,7 @@ services:
   certfront:
     build:
       context: vue-learn
-      dockerfile: Dockerfile
+      dockerfile: ./Dockerfile
       #restart: always
     ports:
       - "80:80"
