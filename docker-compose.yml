@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+  
+  certfront:
+    build:
+      context: dadu3cert
+      dockerfile: vue-learn/Dockerfile
+      #restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - openid
+
+volumes:
+    
+networks:
+  openid:
+    driver: bridge
