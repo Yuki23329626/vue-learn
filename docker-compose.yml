@@ -4,8 +4,8 @@ services:
   
   certfront:
     build:
-      context: dadu3cert
-      dockerfile: vue-learn/Dockerfile
+      context: vue-learn
+      dockerfile: Dockerfile
       #restart: always
     ports:
       - "80:80"
