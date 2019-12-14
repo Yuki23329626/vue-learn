@@ -3,8 +3,7 @@ RUN apt update && apt install nano
 RUN npm install -g @vue/cli
 
 WORKDIR /vue-learn
-
-COPY vue-learn/package.json /vue-learn/package.json
+COPY package.json /vue-learn/package.json
 RUN npm i
 
 COPY vue-learn/. /vue-learn
