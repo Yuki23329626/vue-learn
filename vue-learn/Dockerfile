@@ -6,7 +6,7 @@ WORKDIR /vue-learn
 COPY package.json /vue-learn/package.json
 RUN npm i
 
-COPY vue-learn/. /vue-learn
+COPY . /vue-learn
 
 EXPOSE 80 443
 CMD [ "npm", "run", "start" ]
