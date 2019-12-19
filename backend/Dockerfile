@@ -7,5 +7,5 @@ RUN npm i
 
 COPY . /backend
 
-EXPOSE 80 443
+EXPOSE 3000
 CMD [ "npm", "run", "start" ]
